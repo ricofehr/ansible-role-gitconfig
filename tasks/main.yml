@@ -1,0 +1,5 @@
+---
+
+- name: Set up git for current user
+  shell: git config --global {{ item }}
+  with_items: "{{ gitconfigs }}"
