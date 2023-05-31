@@ -1,0 +1,11 @@
+---
+
+galaxy_info:
+  role_name: gitconfig
+  author: ricofehr
+  description: Set git config values
+  company: NextDeploy
+  license: MIT
+  min_ansible_version: "2.14"
+
+...

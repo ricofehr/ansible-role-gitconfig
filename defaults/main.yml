@@ -1,9 +1,17 @@
 ---
 
-gitconfigs:
-  - user.email jondoe@example.com
-  - user.name jondoe
-  - pull.rebase true
-  - core.ignorecase false
-  - help.autocorrect 1
-  - core.autocrlf input
+gitconfig_list:
+  - name: user.email
+    value: jondoe@example.com
+  - name: user.name
+    value: jondoe
+  - name: pull.rebase
+    value: "true"
+  - name: core.ignorecase
+    value: "false"
+  - name: help.autocorrect
+    value: "1"
+  - name: "core.autocrlf"
+    value: "input"
+
+...

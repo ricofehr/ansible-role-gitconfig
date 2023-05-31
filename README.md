@@ -1,2 +1,3 @@
 # ansible-role-gitconfig
-A simple role who executes some git config cmd
+
+A simple role who executes some git config command, view defaults/main.yml

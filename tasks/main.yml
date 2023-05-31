@@ -1,5 +1,11 @@
 ---
 
 - name: Set up git for current user
-  shell: git config --global {{ item }}
-  with_items: "{{ gitconfigs }}"
+  community.general.git_config:
+    scope: global
+    state: present
+    name: "{{ item.name }}"
+    value: "{{ item.value }}"
+  loop: "{{ gitconfig_list }}"
+
+...
